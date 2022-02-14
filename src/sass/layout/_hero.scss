@@ -1,0 +1,101 @@
+.hero{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+    
+}
+
+.bg{
+    background-image: url(../../src/images/vegetables.png);
+    background-size: 850px 450px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    // background-position: 100px 0;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: no-repeat url(../../src/images/vegetables-2x.jpg);
+    
+    // background-position: 200px 0;
+  }
+}
+
+.hero__head-text{
+    font-family: Rosario;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.29;
+    color: var(--main-title-color);
+    margin-bottom: 20px;
+}
+
+.hero__text{
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.hero__btn{
+    background: transparent;
+    cursor: pointer;
+    margin-left: auto;
+
+    &-text{
+        color: var(--main-title-color);
+        margin-right: 20px;
+    }
+
+    &-icon{
+        margin: auto;
+    }
+    &-icon--container{
+        display: inline-flex;
+        background-color: var(--accent-color);
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        vertical-align:middle;
+    }
+}
+
+
+.hero__item{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: var(--main-background-color);
+    padding: 17px 33px;
+    margin-left: auto;
+    justify-content: center;
+    border-radius: 25px;
+
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+
+}
+
+.hero__icon--container{
+     display: flex;
+    background-color: var(--secondary-bg-color);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 24px;
+   
+}
+
+.hero__item-icon{
+    margin: auto;
+}
+
+.hero__item-text{
+    color: #000000;
+
+    &--number{
+    font-size: 48px;
+    line-height: 1;
+    }
+}
+
