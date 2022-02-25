@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://julgrabar.github.io/YogaLanding",
+  "homepage": "https://julgrabar.github.io/Organic-Food",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /YogaLanding/"
+    "build": "parcel build src/*.html --public-url /Organic-Food/"
   },
   "repository": {
     "type": "git",
