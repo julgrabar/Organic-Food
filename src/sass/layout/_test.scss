@@ -1,0 +1,17 @@
+.item{
+    // width:100px;
+    // height: 100px;
+    background-color: blue;
+    // margin: 15px;
+    
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.grid{
+    outline: 1px solid red;
+    display: grid;  
+  grid-template-rows:  25% 25% 50%; /* 3 строки */
+  grid-template-columns: 25% 25% 25% 25%; 
+}

@@ -1,0 +1,40 @@
+.app{
+    padding-top: 200px;
+    padding-bottom: 175px;
+    position: relative;
+}
+
+.app__info{
+    max-width: 765px;
+    padding-right: 100px;
+    margin-left: auto;
+}
+
+.app__links{
+    display: flex;
+
+    &--appstore{
+    margin-right: 25px;
+    }
+}
+
+.app__link--download{
+    display: inline-block;
+    padding: 11px 24px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 30px;
+    margin-bottom: 15px;
+
+}
+
+.app__text{
+    margin-bottom: 50px;
+}
+
+.app__bg{
+    position: absolute;
+    width: 315px;
+    height: 500px;
+    background:right center no-repeat url(../../src/images/phone1.png),
+    left center no-repeat url(../../src/images/phone2.png);
+}

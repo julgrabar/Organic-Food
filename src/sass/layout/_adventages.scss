@@ -1,0 +1,70 @@
+.adv__bg{
+
+    min-width: 40%;
+    height: 100px;
+    // outline: 1px red solid;
+    min-height: 550px;
+    background:
+    20px 35px no-repeat url(../../src/images/men.png),
+    45px 152px no-repeat url(../../src/images/rec45.png),
+    47px 147px no-repeat url(../../src/images/rec135.png),
+    left 100px no-repeat url(../../src/images/ellipce.png);
+    // right bottom no-repeat url(../../src/images/spin.png);
+}
+
+.adv__info{
+    max-width: 60%;
+}
+
+.adventages{
+    
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    align-items: flex-end;
+}
+
+.adv__list{
+    margin-top: 55px;
+    max-width: 500px;
+    @media screen and (max-width: 1200px){
+        max-width: 400px;
+    }
+}
+
+.adv__item{
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    @media screen and (max-width: 1200px){
+        padding-left: 0;
+    }
+}
+
+.adv__item-icon{
+    background-color: var(--secondary-bg-color);
+    // padding: 20px;
+    flex-basis: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adv__item-title{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--main-title-color);
+    margin-bottom: 8px;
+    
+}
+
+.adv__item-text{
+    font-size: 14px;
+    line-height: 1.43;
+
+}

@@ -21,22 +21,14 @@
   }
 }
 
-.hero__head-text{
-    font-family: Rosario;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 1.29;
-    color: var(--main-title-color);
-    margin-bottom: 20px;
-}
-
 .hero__text{
     width: 630px;
     margin: 0 auto;
     margin-bottom: 27px;
 }
 
-.hero__btn{
+.hero__btn,
+.specials__btn{
     background: transparent;
     cursor: pointer;
     margin-left: auto;
