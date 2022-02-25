@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://julgrabar.github.io/Organic-Food",
+  "homepage": "https://julgrabar.github.io/organic-food",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Organic-Food/"
+    "build": "parcel build src/*.html --public-url /organic-food/"
   },
   "repository": {
     "type": "git",
